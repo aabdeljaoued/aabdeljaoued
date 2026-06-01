@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=Hey+%F0%9F%91%8B%2C+I'm+Abdeljalil;DevOps+%26+Cloud+Engineer;AI%2FML+Enthusiast;Kubernetes+Lover" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=Hey+%F0%9F%91%8B%2C+I'm+Abdeljaoued;DevOps+%26+Cloud+Engineer;AI%2FML+Enthusiast;Kubernetes+Lover" alt="Typing SVG" />
 </div>
 
 <h3 align="center">Passionate about DevOps, Cloud Infrastructure, AI/ML, and Kubernetes</h3>
