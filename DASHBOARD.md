@@ -1,6 +1,6 @@
 # 📚 Dashboard des dépôts
 
-Point d'entrée vers les **45 dépôts** de [@aabdeljaoued](https://github.com/aabdeljaoued), classés par thème.
+Point d'entrée vers les **45 dépôts** de [@aabdeljaoued](https://github.com/aabdeljaoued), classés par thème. 🔒 = dépôt privé (visible uniquement par son propriétaire).
 
 > Généré automatiquement par `dashboard/generate.py`. Pour classer un dépôt ou modifier sa description, éditez `dashboard/config.json`.
 
