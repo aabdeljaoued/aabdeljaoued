@@ -2,7 +2,9 @@
   "owner": "aabdeljaoued",
   "title": "📚 Dashboard des dépôts",
   "exclude": [
-    "aabdeljaoued"
+    "aabdeljaoued",
+    "documents",
+    "perso"
   ],
   "categories": [
     {
@@ -155,8 +157,6 @@
         "pet-tools-note": "Notes personnelles sur les outils et projets annexes.",
         "bp": "Squelette de projet vide (boilerplate).",
         "filezilla": "Archive de l'installateur FileZilla 3.47 pour Windows.",
-        "documents": "Documents personnels.",
-        "perso": "Documents personnels.",
         "censorify": "Dépôt vide (README seul).",
         "luniistore": "Dépôt vide (README seul).",
         "module": "Dépôt vide (README seul)."
