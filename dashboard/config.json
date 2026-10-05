@@ -21,8 +21,10 @@
         "mcp-project": "Expérimentations autour du Model Context Protocol (MCP).",
         "autolabel": "Étiquetage de jeux de données à l'aide de LLM.",
         "dalle-playground": "Playground de génération d'images type DALL·E.",
-        "python_ai_tools": "",
-        "opencode-masterclass-bis": ""
+        "python_ai_tools": "Exemples d'outils IA en Python : backend Flask/FastAPI avec Ollama, Transformers HuggingFace et client de chat Flutter.",
+        "opencode-masterclass-bis": "Espace d'apprentissage OpenCode : configuration, agents (docs, sécurité), skills GitHub/Jira et serveur MCP Jira.",
+        "groundwork": "Assistant RAG interne : React, FastAPI, PostgreSQL + pgvector, Ollama, Keycloak (OIDC) et stockage MinIO.",
+        "project": "Parcours de formation Data Science & ML en français : Python, NumPy/Pandas, visualisation, machine learning, notebooks."
       }
     },
     {
@@ -32,9 +34,9 @@
         "deep_sort": "Suivi multi-objets (tracking) avec Deep SORT.",
         "openpose": "Estimation de pose humaine multi-personnes.",
         "im2latex": "Conversion d'images de formules en LaTeX.",
-        "my-yolo-project": "",
-        "yolo": "",
-        "faces_project": ""
+        "my-yolo-project": "Détection de 68 espèces animales avec YOLO : dataset, scripts de préparation et alertes Frigate + Telegram.",
+        "yolo": "Détection d'émotions en temps réel par webcam avec YOLOv8 et DeepFace, graphique d'évolution en direct.",
+        "faces_project": "Détection de visages (RetinaFace) et reconnaissance d'émotions (YOLOv8 + DeepFace) par webcam."
       }
     },
     {
@@ -51,37 +53,40 @@
         "kafka-docker": "Apache Kafka sous Docker.",
         "infinispan-openshift-templates": "Templates OpenShift pour Infinispan.",
         "n8n-workflows": "Collection de workflows d'automatisation n8n.",
-        "kubernetes-simulator-exams": "",
-        "cka-lab-wizard": "",
-        "cka-scripts": "",
-        "kubeadm-scripts": "",
-        "kubernetes": "",
-        "kubernetes-keda": "",
-        "kubernetes-up-and-running-examples": "",
-        "DevOps-with-Kubernetes-examples": "",
-        "nginx-helm-chart": "",
-        "openshift": "",
-        "kafka-ops-lab": "",
-        "terraform": "",
-        "terraform-local-lab": "",
-        "terraform-proxmox-vms": "",
-        "hashicorp": "",
-        "docker": "",
-        "docker-desktop": "",
-        "docker-ci": "",
-        "jenkins": "",
-        "jenkins-docker": "",
-        "jenkins-shared-library": "",
-        "drone-ci-project": "",
-        "github_action_project": "",
-        "pipeline-demo-app": "",
-        "devops": "",
-        "devops_tools": "",
-        "quiz-devoops": "",
-        "n8n-nodes-docker": "",
-        "n8n-nodes-kubectl": "",
-        "n8n-nodes-terraform": "",
-        "n8n-nodes-vault": ""
+        "kubernetes-simulator-exams": "Simulateur d'examens CKA/CKAD/CKS : questions générées par un LLM local (Ollama), terminal kubectl dans le navigateur et notation automatique sur le cluster.",
+        "cka-lab-wizard": "Lab Kubernetes automatisé sur Proxmox (1 control-plane, 2 workers) avec Terraform, Cloud-Init, Ansible, kubeadm et Calico.",
+        "cka-scripts": "Scripts shell de préparation à la CKA (ex. génération d'un projet Kustomize base/overlays).",
+        "kubeadm-scripts": "Scripts kubeadm : prérequis, init du control-plane, ajout/retrait de nœuds, serveur NFS.",
+        "kubernetes": "Déploiement pas à pas d'une application MVC + base de données sur Minikube (services, volumes, ConfigMap, Secret).",
+        "kubernetes-keda": "Manifests d'autoscaling événementiel avec KEDA (trigger Prometheus) et Vertical Pod Autoscaler.",
+        "kubernetes-up-and-running-examples": "Manifests YAML du livre « Kubernetes: Up and Running », classés par chapitre.",
+        "DevOps-with-Kubernetes-examples": "Exemples Kubernetes du livre « DevOps with Kubernetes », du pod aux sujets avancés.",
+        "nginx-helm-chart": "Chart Helm NGINX : Deployment, Service, Ingress TLS, HPA et ServiceAccount configurables.",
+        "openshift": "Charts Helm génériques pour OpenShift : BuildConfig, ImageStream, routes, ingress, PVC et autoscaling.",
+        "kafka-ops-lab": "Lab de diagnostic Kafka : chaîne Producer → Kafka → Consumer → MySQL sous Docker Compose.",
+        "terraform": "Dépôt d'apprentissage Terraform : exemples AWS, Kubernetes, Helm, Docker et autres providers.",
+        "terraform-local-lab": "Environnement local avec Terraform et le provider Docker : réseau, PostgreSQL 16 et réplicas nginx.",
+        "terraform-proxmox-vms": "Provisionnement de VMs Proxmox VE par clonage d'un template Cloud-Init avec Terraform.",
+        "hashicorp": "Modules et exemples Terraform pour AWS (RDS MySQL, utilisateurs IAM…).",
+        "docker": "Images Docker personnalisées pour le développement (code-server avec Java 17, Maven…).",
+        "docker-desktop": "Notes et configuration pour Docker Desktop.",
+        "docker-ci": "Application Spring Boot (contenu web) avec Dockerfile, builds Maven et Gradle, pour tester la CI Docker.",
+        "jenkins": "Commande pour lancer Jenkins en conteneur Docker avec accès au démon Docker de l'hôte.",
+        "jenkins-docker": "Exemple Java minimal pour tester un pipeline Jenkins + Docker.",
+        "jenkins-shared-library": "Jenkins Shared Library : build/test Maven, image Docker poussée sur Harbor, déploiement OpenShift.",
+        "drone-ci-project": "Application Spring Boot 3 avec pipeline Drone CI (build, tests, validation).",
+        "github_action_project": "Workflow GitHub Actions de démarrage déclenché à chaque push sur main.",
+        "pipeline-demo-app": "Démo CI/CD : API Spring Boot 3, Dockerfile non-root, pipeline Jenkins vers Harbor et déploiement OpenShift.",
+        "devops": "Projets DevOps pratiques : Docker, chart Helm NGINX, manifests Kubernetes et Terraform.",
+        "devops_tools": "Aide-mémoire des outils CLI DevOps du quotidien (tmux, fzf…).",
+        "quiz-devoops": "Quiz DevOps interactif (JavaScript, Bootstrap) : 3000+ questions sur Linux, Git, Docker, Kubernetes, Terraform, Jenkins, Ansible, AWS.",
+        "quiz": "Quiz DevOps en ligne (HTML/JS) : définitions, vrai/faux, flashcards et quiz de commandes Docker, Git, Helm, kubectl, Terraform.",
+        "ekl": "Stack Elasticsearch, Logstash et Kibana avec Docker Compose.",
+        "dashboard": "Dashboard Spring Boot de supervision des projets et déploiements OpenShift/Kubernetes, avec gestion des utilisateurs.",
+        "n8n-nodes-docker": "Nœud communautaire n8n pour piloter des conteneurs Docker (lister, lancer, arrêter, logs).",
+        "n8n-nodes-kubectl": "Nœud communautaire n8n pour interroger un cluster Kubernetes (pods, deployments, services…).",
+        "n8n-nodes-terraform": "Nœud communautaire n8n pour exécuter Terraform en local ou à distance via SSH.",
+        "n8n-nodes-vault": "Nœud communautaire n8n pour HashiCorp Vault : moteurs KV, Transit, Kubernetes et PKI."
       }
     },
     {
@@ -90,10 +95,10 @@
         "hackingthe.cloud": "Encyclopédie des techniques d'attaque et de défense cloud.",
         "autoswagger": "Découverte de specs OpenAPI/Swagger et test des endpoints exposés.",
         "darkdump": "Outil OSINT de recherche sur le dark web (Tor).",
-        "DevSecOps": "",
-        "devsecops-skills": "",
-        "dev-sec-ops-cheat-sheet": "",
-        "draw.io.devsecops": ""
+        "DevSecOps": "Image Docker Ubuntu servant de base aux outils DevSecOps dans les pipelines CI/CD.",
+        "devsecops-skills": "Bibliothèque de skills pour agents IA en DevSecOps et Platform Engineering (GitLab, conformité…).",
+        "dev-sec-ops-cheat-sheet": "Aide-mémoire web des commandes DevOps & DevSecOps.",
+        "draw.io.devsecops": "Diagrammes draw.io d'architecture DevSecOps (vue client, flux techniques, GitLab/OpenShift, C4) et bibliothèques d'icônes."
       }
     },
     {
@@ -102,9 +107,10 @@
         "system-design-primer": "Apprendre à concevoir des systèmes à grande échelle.",
         "OpenAPI-Specification": "Spécification OpenAPI.",
         "spring-integration-samples": "Exemples Spring Integration.",
-        "springboot-app": "",
-        "spring-rest-api": "",
-        "please-backend": ""
+        "springboot-app": "API Spring Boot d'employés pour tester Jenkins, SonarQube et Nexus.",
+        "spring-rest-api": "API REST Spring Boot (articles, utilisateurs) avec chargement de données initiales.",
+        "please-backend": "Backend FastAPI : authentification JWT, MongoDB et transcription audio (MP3/WAV) en texte.",
+        "MyWebSite": "Web service REST JAX-RS de gestion de produits (CRUD)."
       }
     },
     {
@@ -116,13 +122,24 @@
         "youtube-music": "Application desktop YouTube Music avec plugins.",
         "expo-camera-tutorial": "Tutoriel caméra avec Expo / React Native.",
         "react-native-mlkit-tutorial": "Tutoriel ML Kit avec React Native.",
-        "angular-example": "",
-        "please-frontend": "",
-        "MyWebSite": "",
-        "my-dream-app": "",
-        "app_flutter_salaty": "",
-        "StickerSmash": "",
-        "frappe-erpnext": ""
+        "angular-example": "Application Angular 15 générée avec routing, SCSS et tests Karma/Jasmine.",
+        "please-frontend": "Application Flutter multiplateforme d'envoi de fichiers audio et images vers le backend please-backend.",
+        "my-dream-app": "Application Angular 9 avec Jenkinsfile et déploiement Azure Static Web Apps.",
+        "app_flutter_salaty": "Application mobile Flutter d'horaires de prière, en arabe.",
+        "StickerSmash": "Application React Native (Expo) pour placer des stickers emoji sur ses photos.",
+        "DigDone": "Application Android (Kotlin, Jetpack Compose) de mémos avec rappels récurrents.",
+        "QRBeam": "Transfert de fichiers d'un ordinateur vers un téléphone uniquement par une séquence de QR codes, sans réseau.",
+        "smarter-uploader": "Application Next.js d'upload et de validation de PDF, déployée sur Kubernetes/OpenShift via Helm.",
+        "projectile": "Simulateur web de trajectoires de projectiles (FastAPI + Plotly), avec ou sans frottement de l'air."
+      }
+    },
+    {
+      "name": "📊 Data & formation",
+      "repos": {
+        "power-bi-lab": "Programme de formation Power BI du débutant au confirmé : 12 ateliers sur 12 semaines.",
+        "talend": "Archives de jobs Talend de migration de données.",
+        "frappe-erpnext": "Données de démonstration CSV à importer dans ERPNext (clients, fournisseurs, articles, paiements).",
+        "python": "Outil Python dockerisé d'upsert de données JSON dans des collections MongoDB."
       }
     },
     {
@@ -132,7 +149,17 @@
         "Huawei-Watchface-Extractor-Python": "Extraction de cadrans de montres Huawei en Python.",
         "digitalwatchface": "Cadran de montre numérique.",
         "profile-technology-icons": "Icônes de technologies pour README de profil.",
-        "examples": "Dépôt d'exemples."
+        "examples": "Dépôt d'exemples.",
+        "interview": "Exemples de code Java pour préparer les entretiens techniques.",
+        "git-project": "Bac à sable pour s'exercer aux commandes et workflows Git.",
+        "pet-tools-note": "Notes personnelles sur les outils et projets annexes.",
+        "bp": "Squelette de projet vide (boilerplate).",
+        "filezilla": "Archive de l'installateur FileZilla 3.47 pour Windows.",
+        "documents": "Documents personnels.",
+        "perso": "Documents personnels.",
+        "censorify": "Dépôt vide (README seul).",
+        "luniistore": "Dépôt vide (README seul).",
+        "module": "Dépôt vide (README seul)."
       }
     }
   ]
