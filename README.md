@@ -56,7 +56,8 @@
 ### [angular-example](https://github.com/aabdeljaoued/angular-example)
 Angular 15 scaffolded application with routing, SCSS styling, and Karma/Jasmine testing setup.
 
-*(More projects coming soon...)*
+### 📚 [Dashboard de tous mes dépôts](./DASHBOARD.md)
+Index classé par thème (IA/LLM, vision, DevOps & Kubernetes, sécurité, architecture, web & mobile) de tous mes dépôts, mis à jour automatiquement chaque semaine.
 
 ---
 
