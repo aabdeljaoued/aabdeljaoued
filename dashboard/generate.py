@@ -9,7 +9,9 @@ listed under "Non classés" so nothing is forgotten.
 Usage:
     python dashboard/generate.py            # fetch metadata from the GitHub API
     python dashboard/generate.py --offline  # use config.json only
-Set GITHUB_TOKEN to raise the API rate limit.
+Set GITHUB_TOKEN to raise the API rate limit. Set DASHBOARD_TOKEN to a personal
+access token with read access to the account's repositories to also list the
+private ones (marked 🔒).
 """
 
 import argparse
@@ -29,7 +31,7 @@ API = "https://api.github.com"
 
 def api_get(path):
     req = urllib.request.Request(API + path, headers={"Accept": "application/vnd.github+json"})
-    token = os.environ.get("GITHUB_TOKEN")
+    token = os.environ.get("DASHBOARD_TOKEN") or os.environ.get("GITHUB_TOKEN")
     if token:
         req.add_header("Authorization", f"Bearer {token}")
     with urllib.request.urlopen(req, timeout=30) as resp:
@@ -37,9 +39,14 @@ def api_get(path):
 
 
 def fetch_repos(owner):
+    # Only an owner token can see private repositories, through /user/repos.
+    if os.environ.get("DASHBOARD_TOKEN"):
+        endpoint = "/user/repos?affiliation=owner&visibility=all"
+    else:
+        endpoint = f"/users/{owner}/repos?type=owner"
     repos, page = {}, 1
     while True:
-        batch = api_get(f"/users/{owner}/repos?per_page=100&type=owner&page={page}")
+        batch = api_get(f"{endpoint}&per_page=100&page={page}")
         for repo in batch:
             repos[repo["name"]] = repo
         if len(batch) < 100:
@@ -56,6 +63,8 @@ def fetch_parent(owner, name):
 
 def row(owner, name, note, meta):
     link = f"[**{name}**](https://github.com/{owner}/{name})"
+    if meta and meta.get("private"):
+        link += " 🔒"
     if not meta:
         return f"| {link} | {note} |"
     desc = note or meta.get("description") or ""
@@ -64,7 +73,8 @@ def row(owner, name, note, meta):
     lang = meta.get("language") or "—"
     stars = meta.get("stargazers_count", 0)
     updated = (meta.get("pushed_at") or "")[:10]
-    return f"| {link} | {desc.strip()} | {lang} | {stars} | {updated} |"
+    desc = desc.strip().replace("|", "\\|").replace("\n", " ")
+    return f"| {link} | {desc} | {lang} | {stars} | {updated} |"
 
 
 def render(config, repos):
@@ -92,7 +102,7 @@ def render(config, repos):
         f"# {config['title']}",
         "",
         f"Point d'entrée vers les **{total} dépôts** de [@{owner}](https://github.com/{owner}), "
-        "classés par thème.",
+        "classés par thème. 🔒 = dépôt privé (visible uniquement par son propriétaire).",
         "",
         "> Généré automatiquement par `dashboard/generate.py`. Pour classer un dépôt ou "
         "modifier sa description, éditez `dashboard/config.json`.",

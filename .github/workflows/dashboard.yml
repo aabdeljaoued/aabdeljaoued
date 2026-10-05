@@ -24,6 +24,8 @@ jobs:
       - name: Generate DASHBOARD.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional personal access token (read access to all repositories) to include private repos.
+          DASHBOARD_TOKEN: ${{ secrets.DASHBOARD_TOKEN }}
         run: python dashboard/generate.py
       - name: Commit changes
         run: |

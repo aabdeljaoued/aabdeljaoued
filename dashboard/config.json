@@ -1,7 +1,9 @@
 {
   "owner": "aabdeljaoued",
   "title": "📚 Dashboard des dépôts",
-  "exclude": ["aabdeljaoued"],
+  "exclude": [
+    "aabdeljaoued"
+  ],
   "categories": [
     {
       "name": "🤖 IA générative & LLM",
@@ -18,7 +20,9 @@
         "superpowers": "Bibliothèque de skills et de workflows pour agents de code.",
         "mcp-project": "Expérimentations autour du Model Context Protocol (MCP).",
         "autolabel": "Étiquetage de jeux de données à l'aide de LLM.",
-        "dalle-playground": "Playground de génération d'images type DALL·E."
+        "dalle-playground": "Playground de génération d'images type DALL·E.",
+        "python_ai_tools": "",
+        "opencode-masterclass-bis": ""
       }
     },
     {
@@ -27,7 +31,10 @@
         "yolov5": "Détection d'objets temps réel YOLOv5 (PyTorch).",
         "deep_sort": "Suivi multi-objets (tracking) avec Deep SORT.",
         "openpose": "Estimation de pose humaine multi-personnes.",
-        "im2latex": "Conversion d'images de formules en LaTeX."
+        "im2latex": "Conversion d'images de formules en LaTeX.",
+        "my-yolo-project": "",
+        "yolo": "",
+        "faces_project": ""
       }
     },
     {
@@ -43,7 +50,38 @@
         "docker-elk": "Stack Elastic (ELK) avec Docker Compose.",
         "kafka-docker": "Apache Kafka sous Docker.",
         "infinispan-openshift-templates": "Templates OpenShift pour Infinispan.",
-        "n8n-workflows": "Collection de workflows d'automatisation n8n."
+        "n8n-workflows": "Collection de workflows d'automatisation n8n.",
+        "kubernetes-simulator-exams": "",
+        "cka-lab-wizard": "",
+        "cka-scripts": "",
+        "kubeadm-scripts": "",
+        "kubernetes": "",
+        "kubernetes-keda": "",
+        "kubernetes-up-and-running-examples": "",
+        "DevOps-with-Kubernetes-examples": "",
+        "nginx-helm-chart": "",
+        "openshift": "",
+        "kafka-ops-lab": "",
+        "terraform": "",
+        "terraform-local-lab": "",
+        "terraform-proxmox-vms": "",
+        "hashicorp": "",
+        "docker": "",
+        "docker-desktop": "",
+        "docker-ci": "",
+        "jenkins": "",
+        "jenkins-docker": "",
+        "jenkins-shared-library": "",
+        "drone-ci-project": "",
+        "github_action_project": "",
+        "pipeline-demo-app": "",
+        "devops": "",
+        "devops_tools": "",
+        "quiz-devoops": "",
+        "n8n-nodes-docker": "",
+        "n8n-nodes-kubectl": "",
+        "n8n-nodes-terraform": "",
+        "n8n-nodes-vault": ""
       }
     },
     {
@@ -51,7 +89,11 @@
       "repos": {
         "hackingthe.cloud": "Encyclopédie des techniques d'attaque et de défense cloud.",
         "autoswagger": "Découverte de specs OpenAPI/Swagger et test des endpoints exposés.",
-        "darkdump": "Outil OSINT de recherche sur le dark web (Tor)."
+        "darkdump": "Outil OSINT de recherche sur le dark web (Tor).",
+        "DevSecOps": "",
+        "devsecops-skills": "",
+        "dev-sec-ops-cheat-sheet": "",
+        "draw.io.devsecops": ""
       }
     },
     {
@@ -59,7 +101,10 @@
       "repos": {
         "system-design-primer": "Apprendre à concevoir des systèmes à grande échelle.",
         "OpenAPI-Specification": "Spécification OpenAPI.",
-        "spring-integration-samples": "Exemples Spring Integration."
+        "spring-integration-samples": "Exemples Spring Integration.",
+        "springboot-app": "",
+        "spring-rest-api": "",
+        "please-backend": ""
       }
     },
     {
@@ -70,7 +115,14 @@
         "solar-system-threejs": "Système solaire interactif en Three.js.",
         "youtube-music": "Application desktop YouTube Music avec plugins.",
         "expo-camera-tutorial": "Tutoriel caméra avec Expo / React Native.",
-        "react-native-mlkit-tutorial": "Tutoriel ML Kit avec React Native."
+        "react-native-mlkit-tutorial": "Tutoriel ML Kit avec React Native.",
+        "angular-example": "",
+        "please-frontend": "",
+        "MyWebSite": "",
+        "my-dream-app": "",
+        "app_flutter_salaty": "",
+        "StickerSmash": "",
+        "frappe-erpnext": ""
       }
     },
     {
