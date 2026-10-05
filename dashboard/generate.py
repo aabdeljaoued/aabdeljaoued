@@ -138,6 +138,15 @@ def main():
     if not args.offline:
         try:
             repos = fetch_repos(config["owner"])
+            private = sum(1 for meta in repos.values() if meta.get("private"))
+            print(f"Found {len(repos)} repositories ({private} private)")
+            if os.environ.get("DASHBOARD_TOKEN") and not private:
+                login = api_get("/user").get("login")
+                print(
+                    f"::warning::DASHBOARD_TOKEN belongs to '{login}' but sees no private "
+                    "repository: give it access to all repositories (fine-grained token) "
+                    "or the 'repo' scope (classic token)."
+                )
             for name, meta in repos.items():
                 if meta.get("fork"):
                     meta["parent"] = fetch_parent(config["owner"], name)
