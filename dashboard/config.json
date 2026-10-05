@@ -2,9 +2,7 @@
   "owner": "aabdeljaoued",
   "title": "📚 Dashboard des dépôts",
   "exclude": [
-    "aabdeljaoued",
-    "documents",
-    "perso"
+    "aabdeljaoued"
   ],
   "categories": [
     {
@@ -23,10 +21,9 @@
         "mcp-project": "Expérimentations autour du Model Context Protocol (MCP).",
         "autolabel": "Étiquetage de jeux de données à l'aide de LLM.",
         "dalle-playground": "Playground de génération d'images type DALL·E.",
-        "python_ai_tools": "Exemples d'outils IA en Python : backend Flask/FastAPI avec Ollama, Transformers HuggingFace et client de chat Flutter.",
-        "opencode-masterclass-bis": "Espace d'apprentissage OpenCode : configuration, agents (docs, sécurité), skills GitHub/Jira et serveur MCP Jira.",
+        "local-ai-forge": "Exemples d'outils IA en Python : backend Flask/FastAPI avec Ollama, Transformers HuggingFace et client de chat Flutter.",
         "groundwork": "Assistant RAG interne : React, FastAPI, PostgreSQL + pgvector, Ollama, Keycloak (OIDC) et stockage MinIO.",
-        "project": "Parcours de formation Data Science & ML en français : Python, NumPy/Pandas, visualisation, machine learning, notebooks."
+        "notebook-atlas": "Parcours de formation Data Science & ML en français : Python, NumPy/Pandas, visualisation, machine learning, notebooks."
       }
     },
     {
@@ -36,9 +33,7 @@
         "deep_sort": "Suivi multi-objets (tracking) avec Deep SORT.",
         "openpose": "Estimation de pose humaine multi-personnes.",
         "im2latex": "Conversion d'images de formules en LaTeX.",
-        "my-yolo-project": "Détection de 68 espèces animales avec YOLO : dataset, scripts de préparation et alertes Frigate + Telegram.",
-        "yolo": "Détection d'émotions en temps réel par webcam avec YOLOv8 et DeepFace, graphique d'évolution en direct.",
-        "faces_project": "Détection de visages (RetinaFace) et reconnaissance d'émotions (YOLOv8 + DeepFace) par webcam."
+        "yolo-py": "Détection de 68 espèces animales avec YOLO : dataset, scripts de préparation et alertes Frigate + Telegram."
       }
     },
     {
@@ -58,24 +53,14 @@
         "kubernetes-simulator-exams": "Simulateur d'examens CKA/CKAD/CKS : questions générées par un LLM local (Ollama), terminal kubectl dans le navigateur et notation automatique sur le cluster.",
         "cka-lab-wizard": "Lab Kubernetes automatisé sur Proxmox (1 control-plane, 2 workers) avec Terraform, Cloud-Init, Ansible, kubeadm et Calico.",
         "cka-scripts": "Scripts shell de préparation à la CKA (ex. génération d'un projet Kustomize base/overlays).",
-        "kubeadm-scripts": "Scripts kubeadm : prérequis, init du control-plane, ajout/retrait de nœuds, serveur NFS.",
-        "kubernetes": "Déploiement pas à pas d'une application MVC + base de données sur Minikube (services, volumes, ConfigMap, Secret).",
-        "kubernetes-keda": "Manifests d'autoscaling événementiel avec KEDA (trigger Prometheus) et Vertical Pod Autoscaler.",
+        "kubeadm-bootstrap": "Scripts kubeadm : prérequis, init du control-plane, ajout/retrait de nœuds, serveur NFS.",
         "kubernetes-up-and-running-examples": "Manifests YAML du livre « Kubernetes: Up and Running », classés par chapitre.",
         "DevOps-with-Kubernetes-examples": "Exemples Kubernetes du livre « DevOps with Kubernetes », du pod aux sujets avancés.",
-        "nginx-helm-chart": "Chart Helm NGINX : Deployment, Service, Ingress TLS, HPA et ServiceAccount configurables.",
-        "openshift": "Charts Helm génériques pour OpenShift : BuildConfig, ImageStream, routes, ingress, PVC et autoscaling.",
         "kafka-ops-lab": "Lab de diagnostic Kafka : chaîne Producer → Kafka → Consumer → MySQL sous Docker Compose.",
-        "terraform": "Dépôt d'apprentissage Terraform : exemples AWS, Kubernetes, Helm, Docker et autres providers.",
-        "terraform-local-lab": "Environnement local avec Terraform et le provider Docker : réseau, PostgreSQL 16 et réplicas nginx.",
+        "terraform-infra": "Dépôt d'apprentissage Terraform : exemples AWS, Kubernetes, Helm, Docker et autres providers.",
         "terraform-proxmox-vms": "Provisionnement de VMs Proxmox VE par clonage d'un template Cloud-Init avec Terraform.",
-        "hashicorp": "Modules et exemples Terraform pour AWS (RDS MySQL, utilisateurs IAM…).",
-        "docker": "Images Docker personnalisées pour le développement (code-server avec Java 17, Maven…).",
-        "docker-desktop": "Notes et configuration pour Docker Desktop.",
-        "docker-ci": "Application Spring Boot (contenu web) avec Dockerfile, builds Maven et Gradle, pour tester la CI Docker.",
-        "jenkins": "Commande pour lancer Jenkins en conteneur Docker avec accès au démon Docker de l'hôte.",
-        "jenkins-docker": "Exemple Java minimal pour tester un pipeline Jenkins + Docker.",
-        "jenkins-shared-library": "Jenkins Shared Library : build/test Maven, image Docker poussée sur Harbor, déploiement OpenShift.",
+        "hashicorp-tutorials": "Modules et exemples Terraform pour AWS (RDS MySQL, utilisateurs IAM…).",
+        "cloud-native-devbox": "Images Docker personnalisées pour le développement (code-server avec Java 17, Maven…).",
         "drone-ci-project": "Application Spring Boot 3 avec pipeline Drone CI (build, tests, validation).",
         "github_action_project": "Workflow GitHub Actions de démarrage déclenché à chaque push sur main.",
         "pipeline-demo-app": "Démo CI/CD : API Spring Boot 3, Dockerfile non-root, pipeline Jenkins vers Harbor et déploiement OpenShift.",
