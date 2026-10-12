@@ -1,6 +1,6 @@
 # 📚 Dashboard des dépôts
 
-Point d'entrée vers les **115 dépôts** de [@aabdeljaoued](https://github.com/aabdeljaoued), classés par thème. 🔒 = dépôt privé (visible uniquement par son propriétaire).
+Point d'entrée vers les **102 dépôts** de [@aabdeljaoued](https://github.com/aabdeljaoued), classés par thème. 🔒 = dépôt privé (visible uniquement par son propriétaire).
 
 > Généré automatiquement par `dashboard/generate.py`. Pour classer un dépôt ou modifier sa description, éditez `dashboard/config.json`.
 
@@ -8,9 +8,9 @@ Point d'entrée vers les **115 dépôts** de [@aabdeljaoued](https://github.com/
 
 | Catégorie | Dépôts |
 |---|---:|
-| [🤖 IA générative & LLM](#-ia-générative--llm) | 17 |
-| [👁️ Vision par ordinateur](#-vision-par-ordinateur) | 7 |
-| [☸️ DevOps, Kubernetes & Cloud](#-devops-kubernetes--cloud) | 45 |
+| [🤖 IA générative & LLM](#-ia-générative--llm) | 16 |
+| [👁️ Vision par ordinateur](#-vision-par-ordinateur) | 5 |
+| [☸️ DevOps, Kubernetes & Cloud](#-devops-kubernetes--cloud) | 35 |
 | [🔐 Sécurité](#-sécurité) | 7 |
 | [🏗️ Architecture & API](#-architecture--api) | 7 |
 | [🌐 Web & Mobile](#-web--mobile) | 15 |
@@ -34,10 +34,9 @@ Point d'entrée vers les **115 dépôts** de [@aabdeljaoued](https://github.com/
 | [**mcp-project**](https://github.com/aabdeljaoued/mcp-project) | Expérimentations autour du Model Context Protocol (MCP). <sub>fork de [coop-columb/mcp-project](https://github.com/coop-columb/mcp-project)</sub> | — | 0 | 2025-06-10 |
 | [**autolabel**](https://github.com/aabdeljaoued/autolabel) | Étiquetage de jeux de données à l'aide de LLM. <sub>fork de [refuel-ai/autolabel](https://github.com/refuel-ai/autolabel)</sub> | Python | 0 | 2026-10-05 |
 | [**dalle-playground**](https://github.com/aabdeljaoued/dalle-playground) | Playground de génération d'images type DALL·E. <sub>fork de [saharmor/dalle-playground](https://github.com/saharmor/dalle-playground)</sub> | — | 0 | 2024-06-03 |
-| [**python_ai_tools**](https://github.com/aabdeljaoued/python_ai_tools) 🔒 | Exemples d'outils IA en Python : backend Flask/FastAPI avec Ollama, Transformers HuggingFace et client de chat Flutter. | C++ | 0 | 2026-05-30 |
-| [**opencode-masterclass-bis**](https://github.com/aabdeljaoued/opencode-masterclass-bis) 🔒 | Espace d'apprentissage OpenCode : configuration, agents (docs, sécurité), skills GitHub/Jira et serveur MCP Jira. | JavaScript | 0 | 2026-06-07 |
+| [**local-ai-forge**](https://github.com/aabdeljaoued/local-ai-forge) 🔒 | Exemples d'outils IA en Python : backend Flask/FastAPI avec Ollama, Transformers HuggingFace et client de chat Flutter. | C++ | 0 | 2026-05-30 |
 | [**groundwork**](https://github.com/aabdeljaoued/groundwork) 🔒 | Assistant RAG interne : React, FastAPI, PostgreSQL + pgvector, Ollama, Keycloak (OIDC) et stockage MinIO. | Python | 0 | 2026-10-04 |
-| [**project**](https://github.com/aabdeljaoued/project) 🔒 | Parcours de formation Data Science & ML en français : Python, NumPy/Pandas, visualisation, machine learning, notebooks. | Jupyter Notebook | 0 | 2026-05-30 |
+| [**notebook-atlas**](https://github.com/aabdeljaoued/notebook-atlas) 🔒 | Parcours de formation Data Science & ML en français : Python, NumPy/Pandas, visualisation, machine learning, notebooks. | Jupyter Notebook | 0 | 2026-05-30 |
 
 ## 👁️ Vision par ordinateur
 
@@ -47,9 +46,7 @@ Point d'entrée vers les **115 dépôts** de [@aabdeljaoued](https://github.com/
 | [**deep_sort**](https://github.com/aabdeljaoued/deep_sort) | Suivi multi-objets (tracking) avec Deep SORT. <sub>fork de [nwojke/deep_sort](https://github.com/nwojke/deep_sort)</sub> | — | 0 | 2024-04-17 |
 | [**openpose**](https://github.com/aabdeljaoued/openpose) | Estimation de pose humaine multi-personnes. <sub>fork de [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)</sub> | — | 0 | 2024-04-15 |
 | [**im2latex**](https://github.com/aabdeljaoued/im2latex) | Conversion d'images de formules en LaTeX. <sub>fork de [luopeixiang/im2latex](https://github.com/luopeixiang/im2latex)</sub> | — | 0 | 2023-10-03 |
-| [**my-yolo-project**](https://github.com/aabdeljaoued/my-yolo-project) 🔒 | Détection de 68 espèces animales avec YOLO : dataset, scripts de préparation et alertes Frigate + Telegram. | Python | 0 | 2026-05-30 |
-| [**yolo**](https://github.com/aabdeljaoued/yolo) 🔒 | Détection d'émotions en temps réel par webcam avec YOLOv8 et DeepFace, graphique d'évolution en direct. | Python | 0 | 2026-05-30 |
-| [**faces_project**](https://github.com/aabdeljaoued/faces_project) 🔒 | Détection de visages (RetinaFace) et reconnaissance d'émotions (YOLOv8 + DeepFace) par webcam. | Python | 0 | 2026-05-30 |
+| [**yolo-py**](https://github.com/aabdeljaoued/yolo-py) 🔒 | Détection de 68 espèces animales avec YOLO : dataset, scripts de préparation et alertes Frigate + Telegram. | Python | 0 | 2026-05-30 |
 
 ## ☸️ DevOps, Kubernetes & Cloud
 
@@ -66,27 +63,17 @@ Point d'entrée vers les **115 dépôts** de [@aabdeljaoued](https://github.com/
 | [**kafka-docker**](https://github.com/aabdeljaoued/kafka-docker) | Apache Kafka sous Docker. <sub>fork de [rafaelmnatali/kafka-docker](https://github.com/rafaelmnatali/kafka-docker)</sub> | — | 0 | 2021-03-12 |
 | [**infinispan-openshift-templates**](https://github.com/aabdeljaoued/infinispan-openshift-templates) | Templates OpenShift pour Infinispan. <sub>fork de [infinispan/infinispan-openshift-templates](https://github.com/infinispan/infinispan-openshift-templates)</sub> | — | 0 | 2019-11-14 |
 | [**n8n-workflows**](https://github.com/aabdeljaoued/n8n-workflows) | Collection de workflows d'automatisation n8n. <sub>fork de [Zie619/n8n-workflows](https://github.com/Zie619/n8n-workflows)</sub> | Python | 0 | 2026-10-04 |
-| [**kubernetes-simulator-exams**](https://github.com/aabdeljaoued/kubernetes-simulator-exams) 🔒 | Simulateur d'examens CKA/CKAD/CKS : questions générées par un LLM local (Ollama), terminal kubectl dans le navigateur et notation automatique sur le cluster. | Python | 0 | 2026-10-04 |
+| [**kubernetes-simulator-exams**](https://github.com/aabdeljaoued/kubernetes-simulator-exams) 🔒 | Simulateur d'examens CKA/CKAD/CKS : questions générées par un LLM local (Ollama), terminal kubectl dans le navigateur et notation automatique sur le cluster. | Python | 0 | 2026-10-11 |
 | [**cka-lab-wizard**](https://github.com/aabdeljaoued/cka-lab-wizard) 🔒 | Lab Kubernetes automatisé sur Proxmox (1 control-plane, 2 workers) avec Terraform, Cloud-Init, Ansible, kubeadm et Calico. | HCL | 0 | 2026-09-27 |
 | [**cka-scripts**](https://github.com/aabdeljaoued/cka-scripts) 🔒 | Scripts shell de préparation à la CKA (ex. génération d'un projet Kustomize base/overlays). | Shell | 0 | 2026-05-30 |
-| [**kubeadm-scripts**](https://github.com/aabdeljaoued/kubeadm-scripts) 🔒 | Scripts kubeadm : prérequis, init du control-plane, ajout/retrait de nœuds, serveur NFS. | Shell | 0 | 2026-05-30 |
-| [**kubernetes**](https://github.com/aabdeljaoued/kubernetes) 🔒 | Déploiement pas à pas d'une application MVC + base de données sur Minikube (services, volumes, ConfigMap, Secret). | — | 0 | 2020-11-04 |
-| [**kubernetes-keda**](https://github.com/aabdeljaoued/kubernetes-keda) 🔒 | Manifests d'autoscaling événementiel avec KEDA (trigger Prometheus) et Vertical Pod Autoscaler. | — | 0 | 2026-05-30 |
+| [**kubeadm-bootstrap**](https://github.com/aabdeljaoued/kubeadm-bootstrap) 🔒 | Scripts kubeadm : prérequis, init du control-plane, ajout/retrait de nœuds, serveur NFS. | Shell | 0 | 2026-05-30 |
 | [**kubernetes-up-and-running-examples**](https://github.com/aabdeljaoued/kubernetes-up-and-running-examples) 🔒 | Manifests YAML du livre « Kubernetes: Up and Running », classés par chapitre. | JavaScript | 0 | 2026-05-30 |
 | [**DevOps-with-Kubernetes-examples**](https://github.com/aabdeljaoued/DevOps-with-Kubernetes-examples) 🔒 | Exemples Kubernetes du livre « DevOps with Kubernetes », du pod aux sujets avancés. | Python | 0 | 2026-05-30 |
-| [**nginx-helm-chart**](https://github.com/aabdeljaoued/nginx-helm-chart) 🔒 | Chart Helm NGINX : Deployment, Service, Ingress TLS, HPA et ServiceAccount configurables. | Go Template | 0 | 2026-05-30 |
-| [**openshift**](https://github.com/aabdeljaoued/openshift) 🔒 | Charts Helm génériques pour OpenShift : BuildConfig, ImageStream, routes, ingress, PVC et autoscaling. | Shell | 0 | 2021-04-07 |
 | [**kafka-ops-lab**](https://github.com/aabdeljaoued/kafka-ops-lab) 🔒 | Lab de diagnostic Kafka : chaîne Producer → Kafka → Consumer → MySQL sous Docker Compose. | Python | 0 | 2026-10-04 |
-| [**terraform**](https://github.com/aabdeljaoued/terraform) 🔒 | Dépôt d'apprentissage Terraform : exemples AWS, Kubernetes, Helm, Docker et autres providers. | HCL | 0 | 2026-05-30 |
-| [**terraform-local-lab**](https://github.com/aabdeljaoued/terraform-local-lab) 🔒 | Environnement local avec Terraform et le provider Docker : réseau, PostgreSQL 16 et réplicas nginx. | HCL | 0 | 2026-05-30 |
+| [**terraform-infra**](https://github.com/aabdeljaoued/terraform-infra) 🔒 | Dépôt d'apprentissage Terraform : exemples AWS, Kubernetes, Helm, Docker et autres providers. | HCL | 0 | 2026-05-30 |
 | [**terraform-proxmox-vms**](https://github.com/aabdeljaoued/terraform-proxmox-vms) 🔒 | Provisionnement de VMs Proxmox VE par clonage d'un template Cloud-Init avec Terraform. | HCL | 0 | 2026-09-18 |
-| [**hashicorp**](https://github.com/aabdeljaoued/hashicorp) 🔒 | Modules et exemples Terraform pour AWS (RDS MySQL, utilisateurs IAM…). | HCL | 0 | 2026-05-30 |
-| [**docker**](https://github.com/aabdeljaoued/docker) 🔒 | Images Docker personnalisées pour le développement (code-server avec Java 17, Maven…). | Dockerfile | 0 | 2026-05-30 |
-| [**docker-desktop**](https://github.com/aabdeljaoued/docker-desktop) 🔒 | Notes et configuration pour Docker Desktop. | — | 0 | 2026-05-30 |
-| [**docker-ci**](https://github.com/aabdeljaoued/docker-ci) 🔒 | Application Spring Boot (contenu web) avec Dockerfile, builds Maven et Gradle, pour tester la CI Docker. | Java | 0 | 2020-09-11 |
-| [**jenkins**](https://github.com/aabdeljaoued/jenkins) 🔒 | Commande pour lancer Jenkins en conteneur Docker avec accès au démon Docker de l'hôte. | — | 0 | 2020-04-04 |
-| [**jenkins-docker**](https://github.com/aabdeljaoued/jenkins-docker) 🔒 | Exemple Java minimal pour tester un pipeline Jenkins + Docker. | Java | 0 | 2020-10-31 |
-| [**jenkins-shared-library**](https://github.com/aabdeljaoued/jenkins-shared-library) 🔒 | Jenkins Shared Library : build/test Maven, image Docker poussée sur Harbor, déploiement OpenShift. | Groovy | 0 | 2026-05-30 |
+| [**hashicorp-tutorials**](https://github.com/aabdeljaoued/hashicorp-tutorials) 🔒 | Modules et exemples Terraform pour AWS (RDS MySQL, utilisateurs IAM…). | HCL | 0 | 2026-05-30 |
+| [**cloud-native-devbox**](https://github.com/aabdeljaoued/cloud-native-devbox) 🔒 | Images Docker personnalisées pour le développement (code-server avec Java 17, Maven…). | Dockerfile | 0 | 2026-05-30 |
 | [**drone-ci-project**](https://github.com/aabdeljaoued/drone-ci-project) 🔒 | Application Spring Boot 3 avec pipeline Drone CI (build, tests, validation). | Java | 0 | 2026-05-30 |
 | [**github_action_project**](https://github.com/aabdeljaoued/github_action_project) 🔒 | Workflow GitHub Actions de démarrage déclenché à chaque push sur main. | — | 0 | 2026-05-30 |
 | [**pipeline-demo-app**](https://github.com/aabdeljaoued/pipeline-demo-app) 🔒 | Démo CI/CD : API Spring Boot 3, Dockerfile non-root, pipeline Jenkins vers Harbor et déploiement OpenShift. | Java | 0 | 2026-05-30 |
@@ -110,7 +97,7 @@ Point d'entrée vers les **115 dépôts** de [@aabdeljaoued](https://github.com/
 | [**darkdump**](https://github.com/aabdeljaoued/darkdump) | Outil OSINT de recherche sur le dark web (Tor). <sub>fork de [josh0xA/darkdump](https://github.com/josh0xA/darkdump)</sub> | Python | 0 | 2026-10-05 |
 | [**DevSecOps**](https://github.com/aabdeljaoued/DevSecOps) 🔒 | Image Docker Ubuntu servant de base aux outils DevSecOps dans les pipelines CI/CD. | Dockerfile | 0 | 2026-05-30 |
 | [**devsecops-skills**](https://github.com/aabdeljaoued/devsecops-skills) 🔒 | Bibliothèque de skills pour agents IA en DevSecOps et Platform Engineering (GitLab, conformité…). | — | 0 | 2026-05-31 |
-| [**dev-sec-ops-cheat-sheet**](https://github.com/aabdeljaoued/dev-sec-ops-cheat-sheet) 🔒 | Aide-mémoire web des commandes DevOps & DevSecOps. | HTML | 0 | 2026-09-19 |
+| [**dev-sec-ops-cheat-sheet**](https://github.com/aabdeljaoued/dev-sec-ops-cheat-sheet) 🔒 | Aide-mémoire web des commandes DevOps & DevSecOps. | HTML | 0 | 2026-10-07 |
 | [**draw.io.devsecops**](https://github.com/aabdeljaoued/draw.io.devsecops) 🔒 | Diagrammes draw.io d'architecture DevSecOps (vue client, flux techniques, GitLab/OpenShift, C4) et bibliothèques d'icônes. | — | 0 | 2026-09-20 |
 
 ## 🏗️ Architecture & API
@@ -141,7 +128,7 @@ Point d'entrée vers les **115 dépôts** de [@aabdeljaoued](https://github.com/
 | [**app_flutter_salaty**](https://github.com/aabdeljaoued/app_flutter_salaty) 🔒 | Application mobile Flutter d'horaires de prière, en arabe. | — | 0 | 2026-05-30 |
 | [**StickerSmash**](https://github.com/aabdeljaoued/StickerSmash) 🔒 | Application React Native (Expo) pour placer des stickers emoji sur ses photos. | JavaScript | 0 | 2026-05-30 |
 | [**DigDone**](https://github.com/aabdeljaoued/DigDone) 🔒 | Application Android (Kotlin, Jetpack Compose) de mémos avec rappels récurrents. | Kotlin | 0 | 2026-06-14 |
-| [**QRBeam**](https://github.com/aabdeljaoued/QRBeam) 🔒 | Transfert de fichiers d'un ordinateur vers un téléphone uniquement par une séquence de QR codes, sans réseau. | Python | 0 | 2026-10-03 |
+| [**QRBeam**](https://github.com/aabdeljaoued/QRBeam) 🔒 | Transfert de fichiers d'un ordinateur vers un téléphone uniquement par une séquence de QR codes, sans réseau. | Python | 0 | 2026-10-12 |
 | [**smarter-uploader**](https://github.com/aabdeljaoued/smarter-uploader) 🔒 | Application Next.js d'upload et de validation de PDF, déployée sur Kubernetes/OpenShift via Helm. | TypeScript | 0 | 2026-05-30 |
 | [**projectile**](https://github.com/aabdeljaoued/projectile) 🔒 | Simulateur web de trajectoires de projectiles (FastAPI + Plotly), avec ou sans frottement de l'air. | HTML | 0 | 2026-05-30 |
 
@@ -149,7 +136,7 @@ Point d'entrée vers les **115 dépôts** de [@aabdeljaoued](https://github.com/
 
 | Dépôt | Description | Langage | ⭐ | Mis à jour |
 |---|---|---|---:|---|
-| [**power-bi-lab**](https://github.com/aabdeljaoued/power-bi-lab) 🔒 | Programme de formation Power BI du débutant au confirmé : 12 ateliers sur 12 semaines. | Python | 1 | 2026-09-27 |
+| [**power-bi-lab**](https://github.com/aabdeljaoued/power-bi-lab) 🔒 | Programme de formation Power BI du débutant au confirmé : 12 ateliers sur 12 semaines. | Python | 1 | 2026-10-07 |
 | [**talend**](https://github.com/aabdeljaoued/talend) 🔒 | Archives de jobs Talend de migration de données. | — | 0 | 2020-08-05 |
 | [**frappe-erpnext**](https://github.com/aabdeljaoued/frappe-erpnext) 🔒 | Données de démonstration CSV à importer dans ERPNext (clients, fournisseurs, articles, paiements). | — | 0 | 2026-05-30 |
 | [**python**](https://github.com/aabdeljaoued/python) 🔒 | Outil Python dockerisé d'upsert de données JSON dans des collections MongoDB. | Python | 0 | 2026-05-30 |
@@ -174,4 +161,4 @@ Point d'entrée vers les **115 dépôts** de [@aabdeljaoued](https://github.com/
 
 ---
 
-<sub>Dernière génération : 2026-10-05</sub>
+<sub>Dernière génération : 2026-10-12</sub>
