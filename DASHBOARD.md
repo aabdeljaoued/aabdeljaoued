@@ -1,6 +1,6 @@
 # 📚 Dashboard des dépôts
 
-Point d'entrée vers les **102 dépôts** de [@aabdeljaoued](https://github.com/aabdeljaoued), classés par thème. 🔒 = dépôt privé (visible uniquement par son propriétaire).
+Point d'entrée vers les **105 dépôts** de [@aabdeljaoued](https://github.com/aabdeljaoued), classés par thème. 🔒 = dépôt privé (visible uniquement par son propriétaire).
 
 > Généré automatiquement par `dashboard/generate.py`. Pour classer un dépôt ou modifier sa description, éditez `dashboard/config.json`.
 
@@ -16,13 +16,14 @@ Point d'entrée vers les **102 dépôts** de [@aabdeljaoued](https://github.com/
 | [🌐 Web & Mobile](#-web--mobile) | 15 |
 | [📊 Data & formation](#-data--formation) | 4 |
 | [🎲 Divers](#-divers) | 13 |
+| [📦 Non classés](#-non-classés) | 3 |
 
 ## 🤖 IA générative & LLM
 
 | Dépôt | Description | Langage | ⭐ | Mis à jour |
 |---|---|---|---:|---|
 | [**END-TO-END-GENERATIVE-AI-PROJECTS**](https://github.com/aabdeljaoued/END-TO-END-GENERATIVE-AI-PROJECTS) | Projets d'IA générative de bout en bout (RAG, agents, déploiement). <sub>fork de [GURPREETKAURJETHRA/END-TO-END-GENERATIVE-AI-PROJECTS](https://github.com/GURPREETKAURJETHRA/END-TO-END-GENERATIVE-AI-PROJECTS)</sub> | — | 0 | 2026-10-05 |
-| [**llm-app**](https://github.com/aabdeljaoued/llm-app) | Templates de pipelines LLM et RAG prêts pour la production. <sub>fork de [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app)</sub> | Jupyter Notebook | 0 | 2026-10-05 |
+| [**llm-app**](https://github.com/aabdeljaoued/llm-app) | Templates de pipelines LLM et RAG prêts pour la production. <sub>fork de [pathwaycom/serviette](https://github.com/pathwaycom/serviette)</sub> | Jupyter Notebook | 0 | 2026-10-05 |
 | [**ai-engineering-hub**](https://github.com/aabdeljaoued/ai-engineering-hub) | Tutoriels pratiques : LLM, RAG et agents IA. <sub>fork de [patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub)</sub> | Jupyter Notebook | 0 | 2026-10-05 |
 | [**LLM-Projects-Archive**](https://github.com/aabdeljaoued/LLM-Projects-Archive) | Archive de projets à base de LLM. <sub>fork de [manojkumarsgupta/LLM-Projects-Archive](https://github.com/manojkumarsgupta/LLM-Projects-Archive)</sub> | — | 0 | 2024-06-05 |
 | [**awesome-llm-projects**](https://github.com/aabdeljaoued/awesome-llm-projects) | Liste sélectionnée de projets LLM. <sub>fork de [machinelearningzuu/awesome-llm-projects](https://github.com/machinelearningzuu/awesome-llm-projects)</sub> | — | 0 | 2023-12-18 |
@@ -128,7 +129,7 @@ Point d'entrée vers les **102 dépôts** de [@aabdeljaoued](https://github.com/
 | [**app_flutter_salaty**](https://github.com/aabdeljaoued/app_flutter_salaty) 🔒 | Application mobile Flutter d'horaires de prière, en arabe. | — | 0 | 2026-05-30 |
 | [**StickerSmash**](https://github.com/aabdeljaoued/StickerSmash) 🔒 | Application React Native (Expo) pour placer des stickers emoji sur ses photos. | JavaScript | 0 | 2026-05-30 |
 | [**DigDone**](https://github.com/aabdeljaoued/DigDone) 🔒 | Application Android (Kotlin, Jetpack Compose) de mémos avec rappels récurrents. | Kotlin | 0 | 2026-06-14 |
-| [**QRBeam**](https://github.com/aabdeljaoued/QRBeam) 🔒 | Transfert de fichiers d'un ordinateur vers un téléphone uniquement par une séquence de QR codes, sans réseau. | Python | 0 | 2026-10-12 |
+| [**QRBeam**](https://github.com/aabdeljaoued/QRBeam) 🔒 | Transfert de fichiers d'un ordinateur vers un téléphone uniquement par une séquence de QR codes, sans réseau. | Python | 0 | 2026-10-19 |
 | [**smarter-uploader**](https://github.com/aabdeljaoued/smarter-uploader) 🔒 | Application Next.js d'upload et de validation de PDF, déployée sur Kubernetes/OpenShift via Helm. | TypeScript | 0 | 2026-05-30 |
 | [**projectile**](https://github.com/aabdeljaoued/projectile) 🔒 | Simulateur web de trajectoires de projectiles (FastAPI + Plotly), avec ou sans frottement de l'air. | HTML | 0 | 2026-05-30 |
 
@@ -159,6 +160,14 @@ Point d'entrée vers les **102 dépôts** de [@aabdeljaoued](https://github.com/
 | [**luniistore**](https://github.com/aabdeljaoued/luniistore) 🔒 | Dépôt vide (README seul). | — | 0 | 2020-03-15 |
 | [**module**](https://github.com/aabdeljaoued/module) 🔒 | Dépôt vide (README seul). | — | 0 | 2021-02-20 |
 
+## 📦 Non classés
+
+| Dépôt | Description | Langage | ⭐ | Mis à jour |
+|---|---|---|---:|---|
+| [**cueflow**](https://github.com/aabdeljaoued/cueflow) 🔒 |  | TypeScript | 0 | 2026-10-13 |
+| [**fluent-loop**](https://github.com/aabdeljaoued/fluent-loop) 🔒 |  | TypeScript | 0 | 2026-10-17 |
+| [**la-poste-codes-examens**](https://github.com/aabdeljaoued/la-poste-codes-examens) 🔒 |  | HTML | 0 | 2026-10-17 |
+
 ---
 
-<sub>Dernière génération : 2026-10-12</sub>
+<sub>Dernière génération : 2026-10-19</sub>
