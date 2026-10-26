@@ -1,6 +1,6 @@
 # 📚 Dashboard des dépôts
 
-Point d'entrée vers les **105 dépôts** de [@aabdeljaoued](https://github.com/aabdeljaoued), classés par thème. 🔒 = dépôt privé (visible uniquement par son propriétaire).
+Point d'entrée vers les **107 dépôts** de [@aabdeljaoued](https://github.com/aabdeljaoued), classés par thème. 🔒 = dépôt privé (visible uniquement par son propriétaire).
 
 > Généré automatiquement par `dashboard/generate.py`. Pour classer un dépôt ou modifier sa description, éditez `dashboard/config.json`.
 
@@ -16,7 +16,7 @@ Point d'entrée vers les **105 dépôts** de [@aabdeljaoued](https://github.com/
 | [🌐 Web & Mobile](#-web--mobile) | 15 |
 | [📊 Data & formation](#-data--formation) | 4 |
 | [🎲 Divers](#-divers) | 13 |
-| [📦 Non classés](#-non-classés) | 3 |
+| [📦 Non classés](#-non-classés) | 5 |
 
 ## 🤖 IA générative & LLM
 
@@ -165,9 +165,11 @@ Point d'entrée vers les **105 dépôts** de [@aabdeljaoued](https://github.com/
 | Dépôt | Description | Langage | ⭐ | Mis à jour |
 |---|---|---|---:|---|
 | [**cueflow**](https://github.com/aabdeljaoued/cueflow) 🔒 |  | TypeScript | 0 | 2026-10-13 |
+| [**cyberverse**](https://github.com/aabdeljaoued/cyberverse) 🔒 |  | GDScript | 0 | 2026-10-20 |
 | [**fluent-loop**](https://github.com/aabdeljaoued/fluent-loop) 🔒 |  | TypeScript | 0 | 2026-10-17 |
+| [**island-quest**](https://github.com/aabdeljaoued/island-quest) 🔒 |  | Python | 0 | 2026-10-26 |
 | [**la-poste-codes-examens**](https://github.com/aabdeljaoued/la-poste-codes-examens) 🔒 |  | HTML | 0 | 2026-10-17 |
 
 ---
 
-<sub>Dernière génération : 2026-10-19</sub>
+<sub>Dernière génération : 2026-10-26</sub>
