@@ -1,6 +1,6 @@
 # 📚 Dashboard des dépôts
 
-Point d'entrée vers les **107 dépôts** de [@aabdeljaoued](https://github.com/aabdeljaoued), classés par thème. 🔒 = dépôt privé (visible uniquement par son propriétaire).
+Point d'entrée vers les **110 dépôts** de [@aabdeljaoued](https://github.com/aabdeljaoued), classés par thème. 🔒 = dépôt privé (visible uniquement par son propriétaire).
 
 > Généré automatiquement par `dashboard/generate.py`. Pour classer un dépôt ou modifier sa description, éditez `dashboard/config.json`.
 
@@ -16,7 +16,7 @@ Point d'entrée vers les **107 dépôts** de [@aabdeljaoued](https://github.com/
 | [🌐 Web & Mobile](#-web--mobile) | 15 |
 | [📊 Data & formation](#-data--formation) | 4 |
 | [🎲 Divers](#-divers) | 13 |
-| [📦 Non classés](#-non-classés) | 5 |
+| [📦 Non classés](#-non-classés) | 8 |
 
 ## 🤖 IA générative & LLM
 
@@ -129,7 +129,7 @@ Point d'entrée vers les **107 dépôts** de [@aabdeljaoued](https://github.com/
 | [**app_flutter_salaty**](https://github.com/aabdeljaoued/app_flutter_salaty) 🔒 | Application mobile Flutter d'horaires de prière, en arabe. | — | 0 | 2026-05-30 |
 | [**StickerSmash**](https://github.com/aabdeljaoued/StickerSmash) 🔒 | Application React Native (Expo) pour placer des stickers emoji sur ses photos. | JavaScript | 0 | 2026-05-30 |
 | [**DigDone**](https://github.com/aabdeljaoued/DigDone) 🔒 | Application Android (Kotlin, Jetpack Compose) de mémos avec rappels récurrents. | Kotlin | 0 | 2026-06-14 |
-| [**QRBeam**](https://github.com/aabdeljaoued/QRBeam) 🔒 | Transfert de fichiers d'un ordinateur vers un téléphone uniquement par une séquence de QR codes, sans réseau. | Python | 0 | 2026-10-19 |
+| [**QRBeam**](https://github.com/aabdeljaoued/QRBeam) 🔒 | Transfert de fichiers d'un ordinateur vers un téléphone uniquement par une séquence de QR codes, sans réseau. | Python | 0 | 2026-11-02 |
 | [**smarter-uploader**](https://github.com/aabdeljaoued/smarter-uploader) 🔒 | Application Next.js d'upload et de validation de PDF, déployée sur Kubernetes/OpenShift via Helm. | TypeScript | 0 | 2026-05-30 |
 | [**projectile**](https://github.com/aabdeljaoued/projectile) 🔒 | Simulateur web de trajectoires de projectiles (FastAPI + Plotly), avec ou sans frottement de l'air. | HTML | 0 | 2026-05-30 |
 
@@ -167,9 +167,12 @@ Point d'entrée vers les **107 dépôts** de [@aabdeljaoued](https://github.com/
 | [**cueflow**](https://github.com/aabdeljaoued/cueflow) 🔒 |  | TypeScript | 0 | 2026-10-13 |
 | [**cyberverse**](https://github.com/aabdeljaoued/cyberverse) 🔒 |  | GDScript | 0 | 2026-10-20 |
 | [**fluent-loop**](https://github.com/aabdeljaoued/fluent-loop) 🔒 |  | TypeScript | 0 | 2026-10-17 |
-| [**island-quest**](https://github.com/aabdeljaoued/island-quest) 🔒 |  | Python | 0 | 2026-10-26 |
+| [**island-quest**](https://github.com/aabdeljaoued/island-quest) 🔒 |  | GDScript | 0 | 2026-10-26 |
 | [**la-poste-codes-examens**](https://github.com/aabdeljaoued/la-poste-codes-examens) 🔒 |  | HTML | 0 | 2026-10-17 |
+| [**stream-deck-devsecops**](https://github.com/aabdeljaoued/stream-deck-devsecops) 🔒 | Générateur de profil Stream Deck DevSecOps (Windows et macOS) et plugin d'état kubectl / Git / conteneurs | JavaScript | 0 | 2026-10-31 |
+| [**tracinou**](https://github.com/aabdeljaoued/tracinou) 🔒 | Jeu mobile Godot pour apprendre à tracer lettres et chiffres (3–4 ans) | GDScript | 0 | 2026-10-30 |
+| [**web-deck-devsecops**](https://github.com/aabdeljaoued/web-deck-devsecops) 🔒 | Deck DevSecOps dans le navigateur : grille de touches et terminal intégré, sans droits administrateur | JavaScript | 0 | 2026-11-02 |
 
 ---
 
-<sub>Dernière génération : 2026-10-26</sub>
+<sub>Dernière génération : 2026-11-02</sub>
